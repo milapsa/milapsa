@@ -1,0 +1,66 @@
+@font-face {font-family:aller;src: url(../fontes/Aller_Bd.ttf);}
+@font-face {font-family:fira;src: url(../fontes/fira-sans.regular.ttf);}
+@font-face {font-family:Malayalam;src: url(../fontes/Malayalam\ MN.ttc);}
+*{margin: 0; padding: 0;}
+
+
+
+form,input,select {margin: 0px; padding: 0px;color: #ffffff;}
+
+div.box {  margin: 0 auto;
+            width: 500px;
+            background-color: #ffffff;
+            position: relative;
+            top: 50px;
+            border: 1px solid rgba(0, 0, 0, 0);
+            }
+
+.message{color: rgb(255, 255, 255);
+        font-family: fira;}
+
+div.box label
+ { width:100%;
+    border-radius: 25px;
+    display: block;
+    background:#9b1c54;
+    padding:10px 25px 10px 10px;
+    margin-bottom: 7px;}
+
+div.box label span
+ { display: block;
+    color:#ffffff;
+    font-size:18px;
+    float:left;
+    width:100px;
+    text-align:left;
+    padding:5px 10px 10px 8px;
+    font-family: fira;}
+
+div.box .input_text
+ { padding:10px 10px;
+    border-radius: 20px;
+    width:300px;
+    background-color: #9b1c54;
+    
+    }
+
+    div.box .message
+    { padding:7px 7px;
+        border-radius: 20px;
+        width:350px;
+        background:#9b1c54;
+        overflow:hidden;
+        height:130px;}
+    div.box .button
+    {  margin:0 0 10px 0;
+        padding:10px 15px;
+        background-color: #4A5F24;
+        position: relative;
+        top: 80px;
+        left: 210px;
+        width: 100px;
+        border-radius: 20px;
+        color:#ffffff;
+        font-family: fira;
+        font-size: 20px;}
+    

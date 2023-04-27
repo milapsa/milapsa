@@ -1,0 +1,84 @@
+
+@font-face {font-family:aller;src: url(../fontes/Aller_Bd.ttf);}
+@font-face {font-family:fira;src: url(../fontes/fira-sans.regular.ttf);}
+@font-face {font-family:fira;src: url(../fontes/fira-sans.regular.ttf);}
+@font-face {font-family:Malayalam;src: url(../fontes/Malayalam\ MN.ttc);}
+
+
+body   {background-color: rgb(255, 255, 255);
+        background-size: cover;}
+
+
+nav{background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    padding: 60px;
+    left:0px;
+    text-align: right;}
+
+    nav a {text-decoration: none;
+            color: black;
+            font-family: 'fira';
+            font-size: 30px;
+            padding: 20px;}
+
+    nav {transition: all 1s;cursor: pointer;}
+    nav a:hover{background-color: #ffffff; border-radius: 30px;filter: drop-shadow(15px 10px 5px #9b1c54);}
+           
+    .logo { position: absolute; 
+            top: 8px;
+            left: 15px;
+            width: 200px;}
+
+        .EU2   {position: absolute;
+                top: 450px;
+                padding-left: 270px;}
+          
+        .EU    {position: absolute;
+                top: 200px;
+                padding-left: 500px;}
+        
+
+        h1 {width: 570px;
+            font-family: 'Malayalam'; 
+            font-size: 90px;
+            color:rgb(0, 0, 0);
+            line-height: 75px;
+            position: absolute;
+            text-align: left;
+            left: 910px;
+            top: 140px;}
+            
+         p { width: 450px;
+                font-family: 'fira'; 
+                color:rgb(0, 0, 0);
+                line-height: 30px;
+                position: absolute;
+                text-align: justify;
+                left: 910px;
+                top: 350px;
+                font-size: 20px;}
+
+        .texto2{width: 450px;
+                font-family: 'fira'; 
+                color:rgb(0, 0, 0);
+                line-height: 30px;
+                position: absolute;
+                text-align: justify;
+                right:1515px;
+                top: 290px;
+                font-size: 20px;}
+           
+
+
+           footer {background-color: #ffffff;
+                    border: solid #9b1c54 4px;
+                   width: 99% ; 
+                   bottom: 0px;
+                   position: absolute;
+                   height: 120px; 
+                   text-align:center;}
+        
+        footer img{width: 60px;position: relative;top: 20px;padding-left: 50px;}
+        footer .textop {position: absolute;color: #000;top: 44px;left: 46%;font-size: 20px; font-family: 'Fira Sans Regular';}
+    

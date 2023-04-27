@@ -1,0 +1,307 @@
+@font-face {font-family:aller;src: url(../fontes/Aller_Bd.ttf);}
+@font-face {font-family:fira;src: url(../fontes/fira-sans.regular.ttf);}
+@font-face {font-family:Malayalam;src: url(../fontes/Malayalam\ MN.ttc);}
+
+
+body   {background-color: rgb(255, 255, 255);
+        background-size: cover;}
+
+
+        nav{
+          position: relative;
+          top: 0px;
+          padding: 60px;
+          left:0px;
+          text-align: right;}
+      
+          nav a {text-decoration: none;
+                  color: black;
+                  font-family: 'fira';
+                  font-size: 30px;
+                  padding: 20px;}
+      
+          nav {transition: all 1s;cursor: pointer;}
+          nav a:hover{background-color: #ffffff; border-radius: 30px;filter: drop-shadow(15px 10px 5px #9b1c54);}
+                 
+          .logo { position: absolute; 
+                  top: 8px;
+                  left: 15px;
+                  width: 180px;}
+
+        main{margin-left: 150px;
+           margin-top: 0px;}
+            
+        main img{width: 1000px;}
+
+            #textocentraledit{
+                text-align: left;
+                color: black;
+                font-size: 100px;
+                font-family: Malayalam;
+                top:270px;
+                left: 60px;
+                position: absolute;
+                width: 300px;
+                line-height: 100px;}
+ 
+             
+            #textocentralemb{
+                  text-align: left;
+                  color: black;
+                  font-size: 75px;
+                  font-family: Malayalam;
+                  top:260px;
+                  left: 40px;
+                  position: absolute;
+                  width: 100px;
+                  line-height: 65px;}    
+                 
+               #textocentralfot{
+                text-align: left;
+                color: black;
+                font-size: 75px;
+                font-family: Malayalam;
+                top:300px;
+                left: 40px;
+                position: absolute;
+                width: 100px;
+                line-height: 65px;}  
+
+              .imggotas{left: 360px;top: 280px; position:absolute; width: 140px;}
+              .imggotass{left: 300px;top: 280px; position:absolute; width: 200px;}
+
+            section {
+                /* background: #F4F4F4; */
+                padding-top: 20px;
+                padding-bottom: 50px;
+                width: 950px;
+                left: 500px;
+                top: 120px;
+                position: absolute;
+              }
+              
+              .container {
+                max-width: 1044px;
+                margin: 0 auto;
+                padding: 0 20px;}
+              
+              .carousel {
+                display: block;
+                text-align: left;
+                position: relative;
+                margin-bottom: 22px;}
+
+              .carousel > input {
+                clip: rect(1px, 1px, 1px, 1px);
+                clip-path: inset(50%);
+                height: 1px;
+                width: 1px;
+                margin: -1px;
+                overflow: hidden;
+                padding: 0;
+                position: absolute;
+              }
+              
+              .carousel > input:nth-of-type(10):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: -900%;
+              }
+              .carousel > input:nth-of-type(9):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: -800%;
+              }
+              .carousel > input:nth-of-type(8):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: -700%;
+              }
+              .carousel > input:nth-of-type(7):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: -600%;
+              }
+              .carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: -500%;
+              }
+              .carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: -400%;
+              }
+              .carousel > input:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: -300%;
+              }
+              .carousel > input:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: -200%;
+              }
+              .carousel > input:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: -100%;
+              }
+              .carousel > input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
+                margin-left: 0%;
+              }
+              .carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
+                box-shadow: 0px 0px 0px 5px #4A5F24; border-radius: 15px;
+              }
+              .carousel > input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
+                box-shadow: 0px 0px 0px 5px #4A5F24; border-radius: 15px;
+              }
+              .carousel > input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
+                box-shadow: 0px 0px 0px 5px #4A5F24; border-radius: 15px;
+              }
+              .carousel > input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
+                box-shadow: 0px 0px 0px 5px #4A5F24; border-radius: 15px;
+              }
+              .carousel > input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
+                box-shadow: 0px 0px 0px 5px #4A5F24; border-radius: 15px;
+              }
+             
+              
+              .carousel__slides {
+                position: relative;
+                z-index: 1;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+                white-space: nowrap;
+                box-sizing: border-box;
+                display: flex;;
+              }
+              
+              .carousel__slide {
+                position: relative;
+                display: block;
+                flex: 1 0 100%;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                transition: all 300ms ease-out;
+                
+                box-sizing: border-box;
+                white-space: normal;
+              }
+              .carousel__slide figure {
+                display: flex;
+                margin: 0;
+              }
+              .carousel__slide div {
+                position: relative;
+                width: 100%;
+              }
+              .carousel__slide div:before {
+                display: block;
+                content: "";
+                width: 100%;
+                padding-top: 66.6666666667%;
+              }
+              .carousel__slide div > img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 40px;
+              }
+            
+              .carousel__slide div > iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50px;
+              }
+            
+              .carousel__slide img {
+                display: block;
+                flex: 1 1 auto;
+                object-fit: cover;
+              }
+              .carousel__slide figcaption {
+                align-self: flex-end;
+                padding: 20px 20px 0 20px;
+                flex: 0 0 auto;
+                width: 27%;
+                min-width: 150px;
+                background-color: rgba(202, 253, 253, 0);
+                color: #000000;
+                font-family: fira;
+                font-size: 20px;
+              }
+              .carousel__slide .credit {
+                margin-top: 1rem;
+                color:#4A5F24;
+                display: block;
+              }
+              .carousel__slide.scrollable {
+                overflow-y: scroll;}
+              
+              .carousel__thumbnails {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                margin: 0 -10px;
+              }
+              .carousel__slides + .carousel__thumbnails {
+                margin-top: 20px;
+              }
+              .carousel__thumbnails li {
+                flex: 1 1 auto;
+                max-width: calc((100% / 6) - 20px);
+                margin: 0 10px;
+                transition: all 300ms ease-in-out;
+              }
+              .carousel__thumbnails label {
+                display: block;
+                position: relative;
+              }
+              .carousel__thumbnails label:before {
+                display: block;
+                content: "";
+                width: 100%;
+                padding-top: 100%;
+              }
+              .carousel__thumbnails label > img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+              }
+              .carousel__thumbnails label:hover, .carousel__thumbnails label:focus {
+                cursor: pointer;
+              }
+              .carousel__thumbnails label:hover img, .carousel__thumbnails label:focus img {
+                box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+                transition: all 300ms ease-in-out;
+              }
+              .carousel__thumbnails img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;;
+              }
+            
+            #copyde{
+                margin-left: 50px;
+            }
+          
+            #no{
+                position: absolute;
+                margin-top: -40px;
+                margin-left: 120px;
+            }
+
+           
+
+
+           footer {background-color: #ffffff;
+                    border: solid #9b1c54 4px;
+                   width: 99% ; 
+                   bottom: 0px;
+                   position: absolute;
+                   height: 120px; 
+                   text-align:center;}
+        
+        footer img{width: 60px;position: relative;top: 20px;padding-left: 50px;}
+        footer .textop {position: absolute;color: #000;top: 44px;left: 46%;font-size: 20px; font-family: 'Fira Sans Regular';}

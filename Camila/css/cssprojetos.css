@@ -1,0 +1,97 @@
+
+@font-face {font-family:aller;src: url(../fontes/Aller_Bd.ttf);}
+@font-face {font-family:fira;src: url(../fontes/fira-sans.regular.ttf);}
+@font-face {font-family:Malayalam;src: url(../fontes/Malayalam\ MN.ttc);}
+
+
+body   {background-color: rgb(255, 255, 255);
+    background-size: cover;}
+
+
+nav{background-color: rgb(255, 255, 255);
+position: relative;
+top: 0px;
+padding: 60px;
+left:0px;
+text-align: right;}
+
+nav a {text-decoration: none;
+        color: black;
+        font-family:fira;
+        font-size: 30px;
+        padding: 20px;}
+
+nav {transition: all 1s;cursor: pointer;}
+nav a:hover{background-color: #ffffff; border-radius: 30px;filter: drop-shadow(15px 10px 5px #9b1c54);}
+       
+.logo { position: absolute; 
+        top: 8px;
+        left: 15px;
+        width: 200px;}
+
+.imagenstrabalhos{
+                width: fit-content;
+                position: absolute;
+                left: 18%;
+                top: 360px;}
+
+
+        .calendario{transition: all 1s; cursor: pointer;}
+        .calendario:hover{filter:blur(20px);}
+
+        .yomy{transition: all 1s; cursor: pointer;}
+        .yomy:hover{filter:blur(20px);}
+
+        .fotografia{transition: all 1s; cursor: pointer;}
+        .fotografia:hover{filter:blur(20px);}
+
+        .fachadaagility{transition: all 1s; cursor: pointer;}
+        .fachadaagility:hover{filter:blur(20px);}
+        
+        .fachadaagility{transition: all 1s; cursor: pointer;}
+        .fachadaagility:hover{filter:blur(20px);}
+
+.imagenstrabalhos img{width: 400px;padding-left: 12px;padding-bottom: 10px;}
+
+
+h2      {width: 400px;
+        font-family:Malayalam; 
+        color:rgb(0, 0, 0);
+        position: absolute;
+        left: 780px;
+        top: 50px;}
+
+.btedit {width: 100px;
+        position: absolute;
+        text-align: center;
+        left: 0px;
+        top: 100px;
+        font-size: 50px;
+        line-height: 80px;}
+        
+.btemba {left: 0px;
+        top: 100px;
+        position: absolute;
+        text-align: center;
+        font-size: 47px;
+        line-height: 75px;}
+.btfoto {left: 440px;
+        top: 150px;
+        position: absolute;
+        font-size: 45px;
+        line-height: 85px;}
+       
+
+
+       footer {background-color: #ffffff;
+                border: solid #9b1c54 4px;
+               width: 99% ; 
+               bottom: 0px;
+               position: absolute;
+               height: 120px; 
+               text-align:center;}
+    
+    footer img{width: 60px;position: relative;top: 20px;padding-left: 50px;}
+    footer .textop {position: absolute;color: #000;top: 44px;left: 46%;font-size: 20px; font-family: 'Fira Sans Regular';}
+    .btedit {position: absolute;top: 100px;left: -450px;}
+
